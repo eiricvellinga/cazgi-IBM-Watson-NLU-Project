@@ -4,6 +4,8 @@ import EmotionTable from './EmotionTable.js';
 import React from 'react';
 import axios from 'axios';
 
+<title>Sentiment Analyzer</title>
+
 class App extends React.Component {
   state = {innercomp:<textarea rows="4" cols="50" id="textinput"/>,
             mode: "text",
